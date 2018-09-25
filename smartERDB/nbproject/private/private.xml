@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/S3%20-%202018/FIT%205046%20-%20Mobile%20and%20distributed%20computing%20systems/Program/smartERDB/src/java/smarterws/service/UsageFacadeREST.java</file>
+            <file>file:/D:/S3%20-%202018/FIT%205046%20-%20Mobile%20and%20distributed%20computing%20systems/Program/smartERDB/src/java/entities/HighestConsumption.java</file>
+            <file>file:/D:/S3%20-%202018/FIT%205046%20-%20Mobile%20and%20distributed%20computing%20systems/Program/smartERDB/src/java/smarterws/Credential.java</file>
+            <file>file:/D:/S3%20-%202018/FIT%205046%20-%20Mobile%20and%20distributed%20computing%20systems/Program/smartERDB/src/java/smarterws/service/CredentialFacadeREST.java</file>
+            <file>file:/D:/S3%20-%202018/FIT%205046%20-%20Mobile%20and%20distributed%20computing%20systems/Program/smartERDB/src/java/entities/totalPowerUsage.java</file>
+            <file>file:/D:/S3%20-%202018/FIT%205046%20-%20Mobile%20and%20distributed%20computing%20systems/Program/smartERDB/src/java/entities/DailyView.java</file>
+            <file>file:/D:/S3%20-%202018/FIT%205046%20-%20Mobile%20and%20distributed%20computing%20systems/Program/smartERDB/src/java/entities/DailyUsage.java</file>
+            <file>file:/D:/S3%20-%202018/FIT%205046%20-%20Mobile%20and%20distributed%20computing%20systems/Program/smartERDB/src/java/entities/HourlyPowerUsage.java</file>
+            <file>file:/D:/S3%20-%202018/FIT%205046%20-%20Mobile%20and%20distributed%20computing%20systems/Program/smartERDB/src/java/smarterws/Resident.java</file>
+            <file>file:/D:/S3%20-%202018/FIT%205046%20-%20Mobile%20and%20distributed%20computing%20systems/Program/smartERDB/src/java/entities/HourlyView.java</file>
+            <file>file:/D:/S3%20-%202018/FIT%205046%20-%20Mobile%20and%20distributed%20computing%20systems/Program/smartERDB/src/java/smarterws/service/ResidentFacadeREST.java</file>
+            <file>file:/D:/S3%20-%202018/FIT%205046%20-%20Mobile%20and%20distributed%20computing%20systems/Program/smartERDB/src/java/smarterws/Usage.java</file>
+        </group>
+    </open-files>
+</project-private>
