@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_map"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_report"
+            android:title="Report" />
+
+        <item
+            android:id="@+id/nav_usage"
+            android:title="Electrical Usage" />
+        <item
+            android:id="@+id/nav_sqlite"
+            android:title="Local Storage" />
+        <!--<item
+            android:id="@+id/nav_reg_user"
+            android:title="Register User" />-->
+
+    </group>
+</menu>

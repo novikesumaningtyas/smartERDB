@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <Spinner
+        android:id="@+id/spinner_dis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bt_chart" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/linechart"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@+id/bt_chart"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/linechart2"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@+id/bt_chart"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@+id/bt_chart"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bt_chart"/>
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart2"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bt_chart"/>
+
+
+    <Button
+        android:id="@+id/bt_chart"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:layout_toLeftOf="@+id/bt_bar"
+        android:layout_toStartOf="@+id/bt_bar"
+        android:text="Line"
+        android:textSize="6pt" />
+
+    <Button
+        android:id="@+id/bt_bar"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/bt_chart"
+        android:layout_alignBottom="@+id/bt_chart"
+        android:layout_toLeftOf="@+id/bt_pie"
+        android:layout_toStartOf="@+id/bt_pie"
+        android:text="Bar" />
+
+    <Button
+        android:id="@+id/bt_pie"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/bt_bar"
+        android:layout_alignBottom="@+id/bt_bar"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Pie" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_above="@id/linechart"
+        android:layout_toLeftOf="@+id/datein"
+        android:layout_toStartOf="@+id/datein"
+        android:text="Date" />
+
+    <EditText
+        android:id="@+id/datein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linechart"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_toLeftOf="@+id/bt_chart"
+        android:layout_toStartOf="@+id/bt_chart" />
+
+    <!--<TextView
+        android:id="@+id/testtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="7pt"
+        android:layout_below="@+id/bt_chart"
+        android:textAlignment="center"
+        android:text="OR" />-->
+
+    <!--<DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="25dp"
+        android:layout_height="10dp"
+        android:layout_alignBottom="@+id/bt_chart"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/spinner_dis"
+        android:layout_toRightOf="@+id/spinner_dis" />-->
+
+
+</RelativeLayout>
